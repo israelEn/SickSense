@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Enter username and password for \"Application System\""
+AuthUserFile C:/xampp/htdocs/SickSense/Admin/.htpasswd
+Require valid-user

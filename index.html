@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SickSense</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="html5, css3, bootstrap, php, js, firebase">
+    <meta name="author" content="Van-Nhan, Jeff, Israel, Kasim, Enock">
+
+    <link rel="shortcut icon" type="image/png" href="sickSense.png">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+
+  <body>
+
+    <br>
+    <h1>SickSense</h1>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Welcome to the Illness Reporting Service of UMD</h5>
+        <!--<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>-->
+        <p class="card-text">SickSense is a responsive and interactive website that allows users to submit entries detailing a sickness they currently have and what building across the University of Maryland campus they have entered. It also allows users to view summarized reports to take precautions prior to entering a building.</p>
+
+        <div class="mainButtons">
+
+          <button type="button" class="mainOption btn-primary" onclick="location.href = 'illnessForm.php';" name="submit" style="margin: 5px">
+            <a href="illnessForm.php" style="text-decoration: none; color: #fff;">Submit an Illness</a>
+          </button>
+
+          <button type="button" class="mainOption btn-primary" onclick="location.href = 'generateReport.php';" name="review" style="margin: 5px">
+            <a href="generateReport.php" style="text-decoration: none; color: #fff;">Generate Report</a>
+          </button>
+
+          <button type="button" class="mainOption btn-primary" onclick="location.href = 'Admin/adminOptions.html';" name="update" style="margin: 5px">
+            <a href="Admin/adminOptions.html" style="text-decoration: none; color: #fff;">Administrative</a>
+          </button>
+
+          <button type="submit" id="about" class="mainOption btn-primary" name="about" onclick="location.href = 'about.html';" style="margin: 5px">
+          <a href="about.html" style="text-decoration: none; color: #fff;">About</a>
+          </button>
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- JavaScripts -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+
+</html>
